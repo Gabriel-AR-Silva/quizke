@@ -1,5 +1,5 @@
 <template>
-    <div class="home bg-teal-400">
+    <div class="home">
         <h1 class="text-white text-2xl animate-pulse">Home</h1>
         <button>Iniciar</button>
     </div>
