@@ -1,6 +1,25 @@
+<script setup>
+import axios from 'axios';
+import { onMounted } from 'vue';
+
+async function getQuestions() {
+    try {
+        const response = await axios.get('http://localhost:3000/perguntas')    
+        console.log(response);
+        
+    } catch (error) {
+      console.error(error)  
+    }
+}
+
+onMounted(() => {
+    getQuestions();
+})
+</script>
+
 <template>
     <div class="home">
-        <h1 class="text-white text-2xl animate-pulse">Home</h1>
+        <h1 class="text-white text-4xl">Bem vindo ao <span class="cor-roxa-padrao animate-pulse">QuizKe</span></h1>
         <button>Iniciar</button>
     </div>
 </template>

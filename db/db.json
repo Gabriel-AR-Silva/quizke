@@ -1,0 +1,17 @@
+{
+    "perguntas": [
+        {
+            "titulo": "Qual o deserto maior do mundo?",
+            "alternativas": [
+                {
+                    "titulo": "Saara",
+                    "resposta": false
+                },
+                {
+                    "titulo": "Antartida",
+                    "resposta": true
+                }
+            ]
+        }
+    ]
+}
